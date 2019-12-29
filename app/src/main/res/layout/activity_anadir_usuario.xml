@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Anadir.AnadirFacturaActivity"
+    android:background="@color/colorAccent2">
+
+    <RelativeLayout
+        android:layout_width="260dp"
+        android:layout_height="220dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/fondo_redondeado"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="20dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="40dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="220dp"
+                android:layout_height="30dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/textoNombre"
+                    android:layout_width="190dp"
+                    android:layout_height="wrap_content"
+                    android:text="Contacta con Pepito"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorBlanco"
+                    />
+
+                <ImageButton
+                    android:id="@+id/btn_cerrar_popUp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@android:drawable/btn_dialog" />
+
+            </LinearLayout>
+
+
+
+            <EditText
+                android:id="@+id/comentario_peticion"
+                android:layout_width="220dp"
+                android:layout_height="100dp"
+                android:hint="Realiza un comentario..."
+                android:textSize="12dp"
+                android:backgroundTint="@color/colorBlanco"
+                android:background="@drawable/fondo_redondeado"
+                android:padding="20dp"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/btn_enviar_peticion"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="60dp"
+                    android:background="@drawable/boton_borde_blanco"
+                    android:text="Enviar"
+                    android:textColor="@color/colorBlanco" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

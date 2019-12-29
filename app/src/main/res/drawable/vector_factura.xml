@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="512dp"
+    android:height="512dp"
+    android:viewportWidth="512"
+    android:viewportHeight="512">
+
+    <path
+        android:fillColor="#000000"
+        android:pathData="M60 181h220v30h-220zm0 0" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M60 151h220v-90h-220zm30-60h160v30h-160zm0 0" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M250 241h30v30h-30zm0 0" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M60 241h160v30h-160zm0 0" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M250 301h30v30h-30zm0 0" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M60 301h160v30h-160zm0 0" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M250 361h30v30h-30zm0 0" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M60 361h160v30h-160zm0 0" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M60 421h220v30h-220zm0 0" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M430 151v-91c0-33.085938-26.914062-60-60-60h-310c-33.085938 0-60 26.914062-60 60v392c0 33.085938 26.914062 60 60 60h310c33.085938 0 60-26.914062 60-60v-91h-90v-210zm-30-91v61h-60v-61c0-16.542969 13.457031-30 30-30s30 13.457031 30 30zm-370 392v-392c0-16.542969 13.457031-30 30-30h258.070312c-5.121093 8.832031-8.070312 19.074219-8.070312 30v392c0 10.925781 2.949219 21.167969 8.070312 30h-258.070312c-16.542969 0-30-13.457031-30-30zm370-61v61c0 16.542969-13.457031 30-30 30s-30-13.457031-30-30v-61zm0 0" />
+</vector>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Chat.Chat4IActivity">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="293dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/botonredondoblanco"
+        android:ems="10"
+        android:hint=""
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnEscribir"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btnEscribir4i"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/fondo_redondeado"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_send" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="180dp"
+        android:width="300px"
+        android:background="@drawable/botonredondoblanco"
+        android:backgroundTint="@color/colorPrimaryTransparente"
+        android:padding="30px"
+        android:text="Hola Carlos, te quería comentar una cosa."
+        app:layout_constraintBottom_toTopOf="@+id/editText"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="65dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="105dp"
+        android:width="300px"
+        android:background="@drawable/botonredondoblanco"
+        android:padding="30px"
+        android:text="Hola María, dime cúal es el problema."
+        app:layout_constraintBottom_toTopOf="@+id/editText"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="20dp"
+        android:width="300px"
+        android:background="@drawable/botonredondoblanco"
+        android:backgroundTint="@color/colorPrimaryTransparente"
+        android:padding="30px"
+        android:text="Desde hace unos días no me funciona bien la lavadora, es por si podías llamar al servicio técnico."
+        app:layout_constraintBottom_toTopOf="@+id/editText"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

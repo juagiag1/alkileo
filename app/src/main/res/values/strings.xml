@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">alkileoV1</string>
+    <string name="texto_confirmacion">En breves intantes recibirás un correo de confrimación. Revisa tu correo antes de iniciar sesión por primera vez.</string>
+    <string name="title_activity_inicio2">Inicio2Activity</string>
+    <string name="title_home">Notificaciones</string>
+    <string name="title_dashboard">Facturas</string>
+    <string name="title_notifications">Documentación</string>
+</resources>

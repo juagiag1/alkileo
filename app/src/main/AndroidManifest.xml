@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.alkileov1">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_alkileo"
+        android:label=""
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Chat.Chat5IActivity"></activity>
+        <activity android:name=".Chat.Chat4IActivity" />
+        <activity android:name=".Chat.Chat3IActivity" />
+        <activity android:name=".Chat.Chat2IActivity" />
+        <activity android:name=".Chat.Chat1IActivity" />
+        <activity android:name=".Chat.ChatP5Activity" />
+        <activity android:name=".Chat.ChatP4Activity" />
+        <activity android:name=".Chat.ChatP3Activity" />
+        <activity android:name=".Chat.ChatP2Activity" />
+        <activity android:name=".Chat.ChatP1Activity" />
+        <activity android:name=".ActivityDetalle.DetallePeticionActivity" />
+        <activity android:name=".Anadir.AnadirUsuarioActivity" />
+        <activity android:name=".Anadir.AnadirAlquilerActivity" />
+        <activity android:name=".ActivityDetalle.DetalleAlquilerActivity" />
+        <activity android:name=".ActivityMenu.AlquileresActivity" />
+        <activity android:name=".ActivityMenu.DatosPersonalesActivity" />
+        <activity android:name=".ActivityDetalle.DetalleNotificacionActivity" />
+        <activity android:name=".Anadir.AnadirNotificacionActivity" />
+        <activity android:name=".Anadir.AnadirFacturaActivity" />
+        <activity android:name=".Anadir.AnadirDocumentoActivity" />
+        <activity
+            android:name=".Inicio2Activity"
+            android:label="@string/title_activity_inicio2" />
+        <activity android:name=".ConfirmacionActivity" />
+        <activity android:name=".InicioActivity" />
+        <activity android:name=".Register3Activity" />
+        <activity android:name=".Register2Activity" />
+        <activity android:name=".Register1Activity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
